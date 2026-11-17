@@ -14,140 +14,130 @@
 <meta name="theme-color" content="#16294d">
 <link rel="icon" type="image/png" href="../../img/favicon.png">
 <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png">
-<link rel="preload" href="../../fonts/josefin-sans-700.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="../../fonts/mulish-400.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="../../fonts/mulish-700.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../fonts/instrument-serif-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../fonts/geist-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../fonts/geist-600.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="../../css/site.css">
 <script>var d=document.documentElement;d.classList.add('js');if(/[?&](tim|kde)=/.test(location.search)){d.classList.add('flt');addEventListener('load',function(){d.classList.remove('flt')})}</script>
 <script type="module" src="../../js/site.mjs"></script>
 </head>
-<body>
+<body class="v2">
 <a class="skip" href="#obsah">Preskočiť na obsah</a>
 <p class="demo">Návrh webu · nie je to oficiálna stránka klubu</p>
-<header class="hdr">
-  <div class="wrap hdr-in">
-    <a class="brand" href="../../"><img src="../../img/erb-128.webp" alt="" width="46" height="46"><span class="brand-t"><span class="brand-n">Slovan Preseľany</span><span class="brand-s">telovýchovná jednota</span></span><span class="sr">, úvod</span></a>
-    <nav class="nav" aria-label="Hlavné menu"><ul><li><a href="../../zapasy/">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/" aria-current="page">Tímy</a></li><li><a href="../../mladez/">Mládež</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../ihrisko/">Štadión</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul></nav>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-haspopup="dialog"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
-  </div>
-</header>
-<dialog class="menu" id="menu" aria-label="Menu">
-  <div class="drawer">
-    <div class="drawer-top"><span class="drawer-k">TJ Slovan Preseľany</span><button class="menu-x" type="button" data-close><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg><span>Zavrieť</span></button></div>
-    <ul class="drawer-nav"><li><a href="../../">Úvod</a></li><li><a href="../../zapasy/">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/" aria-current="page">Tímy</a></li><li><a href="../../mladez/">Mládež</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../ihrisko/">Štadión</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul>
-    <p class="drawer-f">Štadión TJ Slovan Preseľany<br>Školská, 956 12 Preseľany</p>
-  </div>
-</dialog>
+<header class="hdr hdr--bar"><div class="wrap hdr-in"><a class="brand" href="../../"><img src="../../img/erb-128.webp" alt="" width="44" height="44"><span class="brand-t"><span class="brand-n">TJ Slovan Preseľany</span></span><span class="sr">, úvod</span></a><nav class="nav" aria-label="Hlavné menu"><ul><li><a href="../../zapasy/">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/" aria-current="page">Tímy</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul></nav><button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-haspopup="dialog"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button></div></header>
+<dialog class="menu" id="menu" aria-label="Menu"><div class="menu-in">
+  <div class="menu-top"><span class="menu-k">TJ Slovan Preseľany</span><button class="menu-x" type="button" data-close><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg><span>Zavrieť</span></button></div>
+  <ul class="menu-nav"><li><a href="../../">Úvod</a></li><li><a href="../../zapasy/">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/" aria-current="page">Tímy</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul>
+</div></dialog>
 <main id="obsah">
-<section class="phead"><div class="wrap phead-in">
-  <div><nav class="crumbs" aria-label="Omrvinky"><a href="../../">Úvod</a><a href="../../timy/">Tímy</a><span aria-current="page">U9</span></nav>
-  <h1 class="h1">Prípravka U9</h1><p class="phead-sub">III. liga prípraviek U9</p></div>
+<section class="phead"><div class="wrap">
+  <nav class="crumbs" aria-label="Omrvinky"><a href="../../">Úvod</a><a href="../../timy/">Tímy</a><span aria-current="page">U9</span></nav>
+  <h1 class="h1">Prípravka U9</h1><p class="phead-sub">III. liga prípraviek U9 · vedúci Daniel Šiška</p>
 </div></section>
 <section class="sec sec--first"><div class="wrap team-top">
-  <div><article class="mp mp--big">
-  <p class="mp-top"><span class="mp-label">Posledný zápas</span><span>Prípravka U9</span></p>
-  <p class="mp-when"><time datetime="2026-10-26">pondelok 26. októbra 2026</time></p>
-  <div class="mp-row"><div class="mp-side"><span class="mp-crest"><img class="logo" src="../../img/kluby/ofk-velke-ripnany.futbalnet.sk.webp" alt="" width="56" height="56" decoding="async"></span><span class="mp-name">OFK Veľké Ripňany</span><span class="mp-role">domáci</span></div><p class="mp-score"><span aria-hidden="true">–</span></p><div class="mp-side is-us"><span class="mp-crest"><img class="logo" src="../../img/erb-128.webp" alt="" width="56" height="56" decoding="async"></span><span class="mp-name">Preseľany U9</span><span class="mp-role">hostia</span></div></div>
-  <p class="mp-note"><span>Výsledky prípraviek sa nezapisujú</span></p>
-  <p class="mp-meta">III. liga prípraviek U9, 9. kolo<span aria-hidden="true">&nbsp;· </span>OFK Veľké Ripňany<span aria-hidden="true">&nbsp;· </span>40 divákov</p>
+  <div><article class="mc mc--big">
+  <p class="mc-top"><span class="mc-label">Posledný zápas</span><span>U9 · III. liga prípraviek U9, 9. kolo</span></p>
+  <div class="mc-row"><div class="mc-side"><span class="mc-crest"><img class="logo" src="../../img/kluby/ofk-velke-ripnany.futbalnet.sk.webp" alt="" width="56" height="56" decoding="async"></span><span class="mc-name">OFK Veľké Ripňany</span><span class="sr"> (domáci)</span></div><p class="mc-mid">–</p><div class="mc-side is-us"><span class="mc-crest"><img class="logo" src="../../img/erb-128.webp" alt="" width="56" height="56" decoding="async"></span><span class="mc-name">Preseľany U9</span><span class="sr"> (hostia)</span></div></div>
+  <p class="mc-when"><time datetime="2026-10-26">pondelok 26. októbra 2026</time> · OFK Veľké Ripňany</p>
+  
   
 </article></div>
   <div class="team-side">
-    <p>Tím v tomto ročníku zatiaľ nemá výsledky. Rozpis zápasov je nižšie.</p>
+    <p>Tím v tomto ročníku zatiaľ nemá výsledky.</p>
     
     <details class="cal" data-cal id="cal-u9-pripravka">
   <summary class="btn btn--line"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Zápasy do kalendára</span></summary>
   <div class="cal-pop">
-    <a class="cal-o" data-webcal href="../../kalendar/u9-pripravka.ics" hidden><b>Odoberať v telefóne</b><span>iPhone, Mac, Outlook – rozpis sa sám aktualizuje</span></a>
-    <a class="cal-o" data-gcal href="../../kalendar/u9-pripravka.ics" rel="noopener" hidden><b>Pridať do Google Kalendára</b><span>aj pre Android</span></a>
-    <a class="cal-o" data-ics href="../../kalendar/u9-pripravka.ics" download><b>Stiahnuť súbor .ics</b><span>jednorazovo, bez aktualizácií</span></a>
+    <a class="cal-o" data-webcal href="../../kalendar/u9-pripravka.ics" hidden><b>Odoberať v telefóne</b><span>iPhone, Mac, Outlook</span></a>
+    <a class="cal-o" data-gcal href="../../kalendar/u9-pripravka.ics" rel="noopener" hidden><b>Google Kalendár</b><span>aj pre Android</span></a>
+    <a class="cal-o" data-ics href="../../kalendar/u9-pripravka.ics" download><b>Stiahnuť .ics</b><span>jednorazovo</span></a>
   </div>
 </details>
   </div>
 </div></section>
-<section class="sec sec--cream" aria-labelledby="tz-h"><div class="wrap">
+<section class="sec" aria-labelledby="tz-h"><div class="wrap">
   <div class="sec-head"><div><h2 class="h2" id="tz-h">Zápasy</h2></div></div>
   <div class="cols2">
-    <div><h3 class="h3">Program</h3><ol class="mlist mlist--st"><li class="mrow mrow--st" data-team="u9-pripravka" data-where="vonku"><a class="st st--a" href="../../zapasy/2027-04-12-u9-fc-topolcany-b/">
-  <span class="st-star" aria-hidden="true"><b>12</b><span>apr</span></span>
-  <span class="st-b"><span class="st-o">FC Topoľčany B</span><span class="st-k"><time datetime="2027-04-12">po 12. 4.</time> · 16:30 · <b>vonku</b> · 10. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="doma"><a class="st st--h" href="../../zapasy/2027-04-19-u9-ofk-ludanice/">
-  <span class="st-star" aria-hidden="true"><b>19</b><span>apr</span></span>
-  <span class="st-b"><span class="st-o">OFK Ludanice</span><span class="st-k"><time datetime="2027-04-19">po 19. 4.</time> · 16:30 · <b>doma</b> · 11. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="vonku"><a class="st st--a" href="../../zapasy/2027-04-26-u9-ofk-prasice/">
-  <span class="st-star" aria-hidden="true"><b>26</b><span>apr</span></span>
-  <span class="st-b"><span class="st-o">OFK Prašice</span><span class="st-k"><time datetime="2027-04-26">po 26. 4.</time> · 16:30 · <b>vonku</b> · 12. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="doma"><a class="st st--h" href="../../zapasy/2027-05-03-u9-ofk-praznovce/">
-  <span class="st-star" aria-hidden="true"><b>3</b><span>máj</span></span>
-  <span class="st-b"><span class="st-o">OFK Práznovce</span><span class="st-k"><time datetime="2027-05-03">po 3. 5.</time> · 17:00 · <b>doma</b> · 13. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="vonku"><a class="st st--a" href="../../zapasy/2027-05-10-u9-ofk-solcany/">
-  <span class="st-star" aria-hidden="true"><b>10</b><span>máj</span></span>
-  <span class="st-b"><span class="st-o">OFK Solčany</span><span class="st-k"><time datetime="2027-05-10">po 10. 5.</time> · 17:00 · <b>vonku</b> · 14. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="doma"><a class="st st--h" href="../../zapasy/2027-05-17-u9-ofk-tovarniky/">
-  <span class="st-star" aria-hidden="true"><b>17</b><span>máj</span></span>
-  <span class="st-b"><span class="st-o">OFK Tovarníky</span><span class="st-k"><time datetime="2027-05-17">po 17. 5.</time> · 17:00 · <b>doma</b> · 15. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="vonku"><a class="st st--a" href="../../zapasy/2027-05-31-u9-tj-slovan-velke-bedzany/">
-  <span class="st-star" aria-hidden="true"><b>31</b><span>máj</span></span>
-  <span class="st-b"><span class="st-o">TJ Slovan Veľké Bedzany</span><span class="st-k"><time datetime="2027-05-31">po 31. 5.</time> · 17:30 · <b>vonku</b> · 17. kolo</span></span>
-</a></li><li class="mrow mrow--st" data-team="u9-pripravka" data-where="doma"><a class="st st--h" href="../../zapasy/2027-06-07-u9-ofk-velke-ripnany/">
-  <span class="st-star" aria-hidden="true"><b>7</b><span>jún</span></span>
-  <span class="st-b"><span class="st-o">OFK Veľké Ripňany</span><span class="st-k"><time datetime="2027-06-07">po 7. 6.</time> · 17:30 · <b>doma</b> · 18. kolo</span></span>
+    <div><h3 class="h3">Program</h3><ol class="fxl fxl--up"><li class="mrow fx fx--up fx--a" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2027-04-12-u9-fc-topolcany-b/">
+  <time class="fx-d" datetime="2027-04-12"><span class="fx-dd">po</span> <span class="fx-dn">12.</span> <span class="fx-dm">4.</span></time>
+  <span class="fx-o"><span class="fx-on">FC Topoľčany B</span><span class="fx-k">10. kolo · vonku</span></span>
+  <span class="fx-r"><span class="fx-t">16:30</span></span>
+</a></li><li class="mrow fx fx--up fx--h" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2027-04-19-u9-ofk-ludanice/">
+  <time class="fx-d" datetime="2027-04-19"><span class="fx-dd">po</span> <span class="fx-dn">19.</span> <span class="fx-dm">4.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Ludanice</span><span class="fx-k">11. kolo · doma</span></span>
+  <span class="fx-r"><span class="fx-t">16:30</span></span>
+</a></li><li class="mrow fx fx--up fx--a" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2027-04-26-u9-ofk-prasice/">
+  <time class="fx-d" datetime="2027-04-26"><span class="fx-dd">po</span> <span class="fx-dn">26.</span> <span class="fx-dm">4.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Prašice</span><span class="fx-k">12. kolo · vonku</span></span>
+  <span class="fx-r"><span class="fx-t">16:30</span></span>
+</a></li><li class="mrow fx fx--up fx--h" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2027-05-03-u9-ofk-praznovce/">
+  <time class="fx-d" datetime="2027-05-03"><span class="fx-dd">po</span> <span class="fx-dn">3.</span> <span class="fx-dm">5.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Práznovce</span><span class="fx-k">13. kolo · doma</span></span>
+  <span class="fx-r"><span class="fx-t">17:00</span></span>
+</a></li><li class="mrow fx fx--up fx--a" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2027-05-10-u9-ofk-solcany/">
+  <time class="fx-d" datetime="2027-05-10"><span class="fx-dd">po</span> <span class="fx-dn">10.</span> <span class="fx-dm">5.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Solčany</span><span class="fx-k">14. kolo · vonku</span></span>
+  <span class="fx-r"><span class="fx-t">17:00</span></span>
+</a></li><li class="mrow fx fx--up fx--h" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2027-05-17-u9-ofk-tovarniky/">
+  <time class="fx-d" datetime="2027-05-17"><span class="fx-dd">po</span> <span class="fx-dn">17.</span> <span class="fx-dm">5.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Tovarníky</span><span class="fx-k">15. kolo · doma</span></span>
+  <span class="fx-r"><span class="fx-t">17:00</span></span>
+</a></li><li class="mrow fx fx--up fx--a" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2027-05-31-u9-tj-slovan-velke-bedzany/">
+  <time class="fx-d" datetime="2027-05-31"><span class="fx-dd">po</span> <span class="fx-dn">31.</span> <span class="fx-dm">5.</span></time>
+  <span class="fx-o"><span class="fx-on">TJ Slovan Veľké Bedzany</span><span class="fx-k">17. kolo · vonku</span></span>
+  <span class="fx-r"><span class="fx-t">17:30</span></span>
+</a></li><li class="mrow fx fx--up fx--h" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2027-06-07-u9-ofk-velke-ripnany/">
+  <time class="fx-d" datetime="2027-06-07"><span class="fx-dd">po</span> <span class="fx-dn">7.</span> <span class="fx-dm">6.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Veľké Ripňany</span><span class="fx-k">18. kolo · doma</span></span>
+  <span class="fx-r"><span class="fx-t">17:30</span></span>
 </a></li></ol></div>
-    <div><h3 class="h3">Výsledky</h3><ul class="mn-key" aria-hidden="true"><li><span class="mk mk--w"></span>výhra</li><li><span class="mk mk--d"></span>remíza</li><li><span class="mk mk--l"></span>prehra</li><li><span class="mk mk--n"></span>bez výsledku</li></ul><ol class="mlist mlist--mn"><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="vonku"><a class="mn mn--n" href="../../zapasy/2026-10-26-u9-ofk-velke-ripnany/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Veľké Ripňany</span><span class="mn-k">26. 10. · vonku · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="doma"><a class="mn mn--n" href="../../zapasy/2026-10-19-u9-tj-slovan-velke-bedzany/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">TJ Slovan Veľké Bedzany</span><span class="mn-k">19. 10. · doma · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="vonku"><a class="mn mn--n" href="../../zapasy/2026-10-05-u9-ofk-tovarniky/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Tovarníky</span><span class="mn-k">5. 10. · vonku · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="doma"><a class="mn mn--n" href="../../zapasy/2026-09-28-u9-ofk-solcany/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Solčany</span><span class="mn-k">28. 9. · doma · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="vonku"><a class="mn mn--n" href="../../zapasy/2026-09-21-u9-ofk-praznovce/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Práznovce</span><span class="mn-k">21. 9. · vonku · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="doma"><a class="mn mn--n" href="../../zapasy/2026-09-14-u9-ofk-prasice/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Prašice</span><span class="mn-k">14. 9. · doma · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="vonku"><a class="mn mn--n" href="../../zapasy/2026-09-07-u9-ofk-ludanice/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Ludanice</span><span class="mn-k">7. 9. · vonku · výsledky prípraviek sa nezapisujú</span></span>
-</a></li><li class="mrow mrow--mn" data-team="u9-pripravka" data-where="doma"><a class="mn mn--n" href="../../zapasy/2026-08-31-u9-fc-topolcany-b/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">–</span><span class="sr">Bez výsledku.</span></span>
-  <span class="mn-b"><span class="mn-o">FC Topoľčany B</span><span class="mn-k">31. 8. · doma · výsledky prípraviek sa nezapisujú</span></span>
+    <div><h3 class="h3">Výsledky</h3><ol class="fxl fxl--res"><li class="mrow fx fx--res fx--a fx--n" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2026-10-26-u9-ofk-velke-ripnany/">
+  <time class="fx-d" datetime="2026-10-26"><span class="fx-dd">po</span> <span class="fx-dn">26.</span> <span class="fx-dm">10.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Veľké Ripňany</span><span class="fx-k">9. kolo · vonku</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--h fx--n" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2026-10-19-u9-tj-slovan-velke-bedzany/">
+  <time class="fx-d" datetime="2026-10-19"><span class="fx-dd">po</span> <span class="fx-dn">19.</span> <span class="fx-dm">10.</span></time>
+  <span class="fx-o"><span class="fx-on">TJ Slovan Veľké Bedzany</span><span class="fx-k">8. kolo · doma</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--a fx--n" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2026-10-05-u9-ofk-tovarniky/">
+  <time class="fx-d" datetime="2026-10-05"><span class="fx-dd">po</span> <span class="fx-dn">5.</span> <span class="fx-dm">10.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Tovarníky</span><span class="fx-k">6. kolo · vonku</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--h fx--n" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2026-09-28-u9-ofk-solcany/">
+  <time class="fx-d" datetime="2026-09-28"><span class="fx-dd">po</span> <span class="fx-dn">28.</span> <span class="fx-dm">9.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Solčany</span><span class="fx-k">5. kolo · doma</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--a fx--n" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2026-09-21-u9-ofk-praznovce/">
+  <time class="fx-d" datetime="2026-09-21"><span class="fx-dd">po</span> <span class="fx-dn">21.</span> <span class="fx-dm">9.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Práznovce</span><span class="fx-k">4. kolo · vonku</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--h fx--n" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2026-09-14-u9-ofk-prasice/">
+  <time class="fx-d" datetime="2026-09-14"><span class="fx-dd">po</span> <span class="fx-dn">14.</span> <span class="fx-dm">9.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Prašice</span><span class="fx-k">3. kolo · doma</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--a fx--n" data-team="u9-pripravka" data-where="vonku"><a class="fx-a" href="../../zapasy/2026-09-07-u9-ofk-ludanice/">
+  <time class="fx-d" datetime="2026-09-07"><span class="fx-dd">po</span> <span class="fx-dn">7.</span> <span class="fx-dm">9.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Ludanice</span><span class="fx-k">2. kolo · vonku</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
+</a></li><li class="mrow fx fx--res fx--h fx--n" data-team="u9-pripravka" data-where="doma"><a class="fx-a" href="../../zapasy/2026-08-31-u9-fc-topolcany-b/">
+  <time class="fx-d" datetime="2026-08-31"><span class="fx-dd">po</span> <span class="fx-dn">31.</span> <span class="fx-dm">8.</span></time>
+  <span class="fx-o"><span class="fx-on">FC Topoľčany B</span><span class="fx-k">1. kolo · doma</span></span>
+  <span class="fx-r"><span class="sc sc--n">–<span class="sr"> Výsledky prípraviek sa nezapisujú</span></span></span>
 </a></li></ol></div>
   </div>
 </div></section>
 
-<section class="sec sec--cream" aria-labelledby="ts-h"><div class="wrap">
+<section class="sec" aria-labelledby="ts-h"><div class="wrap">
   <div class="sec-head"><div><h2 class="h2" id="ts-h">Súpiska</h2></div></div>
-  <p class="note">Hráči, ktorí v kalendárnom roku 2026 nastúpili alebo boli v nominácii na zápas (podľa Sportnetu). Pri mládeži uvádzame len mená.</p>
-  <h3 class="h4 sq-h">Brankári</h3><ul class="squad"><li class="pl"><span class="pl-nr" aria-hidden="true">3</span><span class="pl-name">Richard Feranec</span><span class="sr">, číslo 3</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">1</span><span class="pl-name">Mikuláš Šiška</span><span class="sr">, číslo 1</span></li></ul><h3 class="h4 sq-h">Obrancovia</h3><ul class="squad"><li class="pl"><span class="pl-nr" aria-hidden="true">5</span><span class="pl-name">Dárius Daňovič</span><span class="sr">, číslo 5</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">14</span><span class="pl-name">Timotej Kováč</span><span class="sr">, číslo 14</span></li><li class="pl"><span class="pl-nr" aria-hidden="true"><span class="pl-dot"></span></span><span class="pl-name">Leo Lacena</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">2</span><span class="pl-name">František Tobias Mocný</span><span class="sr">, číslo 2</span></li></ul><h3 class="h4 sq-h">Útočníci</h3><ul class="squad"><li class="pl"><span class="pl-nr" aria-hidden="true">10</span><span class="pl-name">Michal Gabaj</span><span class="sr">, číslo 10</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">11</span><span class="pl-name">Matúš Gabaj</span><span class="sr">, číslo 11</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">6</span><span class="pl-name">Peter Holboj</span><span class="sr">, číslo 6</span></li><li class="pl"><span class="pl-nr" aria-hidden="true"><span class="pl-dot"></span></span><span class="pl-name">Adam Hučok</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">4</span><span class="pl-name">Dominik Koleno</span><span class="sr">, číslo 4</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">12</span><span class="pl-name">Tobias Matušík</span><span class="sr">, číslo 12</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">9</span><span class="pl-name">Benjamín Šatka</span><span class="sr">, číslo 9</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">7</span><span class="pl-name">Dominik Urbanec</span><span class="sr">, číslo 7</span></li><li class="pl"><span class="pl-nr" aria-hidden="true">13</span><span class="pl-name">Peter Zeliska</span><span class="sr">, číslo 13</span></li></ul>
+  <h3 class="h4 sq-h">Brankári</h3><ul class="squad"><li><span class="sq-nr" aria-hidden="true">3</span><span>Richard Feranec</span><span class="sr">, číslo 3</span></li><li><span class="sq-nr" aria-hidden="true">1</span><span>Mikuláš Šiška</span><span class="sr">, číslo 1</span></li></ul><h3 class="h4 sq-h">Obrancovia</h3><ul class="squad"><li><span class="sq-nr" aria-hidden="true">5</span><span>Dárius Daňovič</span><span class="sr">, číslo 5</span></li><li><span class="sq-nr" aria-hidden="true">14</span><span>Timotej Kováč</span><span class="sr">, číslo 14</span></li><li><span class="sq-nr" aria-hidden="true"></span><span>Leo Lacena</span></li><li><span class="sq-nr" aria-hidden="true">2</span><span>František Tobias Mocný</span><span class="sr">, číslo 2</span></li></ul><h3 class="h4 sq-h">Útočníci</h3><ul class="squad"><li><span class="sq-nr" aria-hidden="true">10</span><span>Michal Gabaj</span><span class="sr">, číslo 10</span></li><li><span class="sq-nr" aria-hidden="true">11</span><span>Matúš Gabaj</span><span class="sr">, číslo 11</span></li><li><span class="sq-nr" aria-hidden="true">6</span><span>Peter Holboj</span><span class="sr">, číslo 6</span></li><li><span class="sq-nr" aria-hidden="true"></span><span>Adam Hučok</span></li><li><span class="sq-nr" aria-hidden="true">4</span><span>Dominik Koleno</span><span class="sr">, číslo 4</span></li><li><span class="sq-nr" aria-hidden="true">12</span><span>Tobias Matušík</span><span class="sr">, číslo 12</span></li><li><span class="sq-nr" aria-hidden="true">9</span><span>Benjamín Šatka</span><span class="sr">, číslo 9</span></li><li><span class="sq-nr" aria-hidden="true">7</span><span>Dominik Urbanec</span><span class="sr">, číslo 7</span></li><li><span class="sq-nr" aria-hidden="true">13</span><span>Peter Zeliska</span><span class="sr">, číslo 13</span></li></ul>
   <h3 class="h4 sq-h">Realizačný tím</h3><ul class="crew"><li><span class="crew-r">Vedúci mužstva</span><span>Daniel Šiška</span></li><li><span class="crew-r">Zdravotník</span><span>Ondrej Čerňan</span></li></ul>
+  <p class="note">Hráči, ktorí v roku 2026 nastúpili alebo boli v nominácii (Sportnet). Pri mládeži len mená.</p>
 </div></section>
 </main>
-<footer class="ftr">
-  <div class="wrap ftr-grid">
-    <div class="ftr-club">
-      <img src="../../img/erb-128.webp" alt="" width="64" height="64" loading="lazy">
-      <p class="ftr-name">TJ Slovan Preseľany</p>
-      <p class="ftr-motto">Futbal pri stanici v Preseľanoch.</p>
-    </div>
-    <div><h2 class="ftr-h">Ihrisko</h2><p>Štadión TJ Slovan Preseľany<br>Školská, 956 12 Preseľany</p><p><a href="https://www.google.com/maps/search/?api=1&query=48.4474793,18.0942967" rel="noopener">Navigovať na ihrisko</a></p><p>Najbližšie doma: <a href="../../zapasy/2027-03-13-a-ofk-ludanice/">13. 3. o 14:30 proti OFK Ludanice</a></p></div>
-    <div><h2 class="ftr-h">Kontakt</h2><p>Telovýchovná jednota Slovan Preseľany<br><a href="mailto:tjslovanpreselany@gmail.com">tjslovanpreselany<wbr>@gmail.com</a></p><p><a href="https://www.facebook.com/profile.php?id=100066784963535" rel="noopener">Facebook klubu</a></p></div>
-    <div><h2 class="ftr-h">Zdroje</h2><p>Výsledky zo Sportnetu (Futbalnet), aktualizované 17. 11. 2026. Obec a štadión podľa webu obce Preseľany.</p><p><a href="https://sportnet.sme.sk/futbalnet/k/tj-slovan-preselany/" rel="noopener">Klub na Sportnete</a></p></div>
-  </div>
-  <div class="ftr-bar"><div class="wrap ftr-bar-in"><span>© 2026 Telovýchovná jednota Slovan Preseľany</span><a href="../../ochrana-sukromia/">Ochrana súkromia</a><a href="../../admin/">Administrácia (ukážka)</a></div></div>
-</footer>
+<footer class="ftr"><div class="wrap ftr-in">
+  <div class="ftr-id"><img src="../../img/erb-128.webp" alt="" width="48" height="48" loading="lazy"><div><p class="ftr-name">TJ Slovan Preseľany</p><p>Štadión TJ Slovan Preseľany, Školská, 956 12 Preseľany</p></div></div>
+  <ul class="ftr-links"><li><a href="https://www.google.com/maps/search/?api=1&query=48.4474793,18.0942967" rel="noopener">Navigovať na ihrisko</a></li><li><a href="mailto:tjslovanpreselany@gmail.com">tjslovanpreselany<wbr>@gmail.com</a></li><li><a href="https://www.facebook.com/profile.php?id=100066784963535" rel="noopener">Facebook</a></li><li><a href="https://sportnet.sme.sk/futbalnet/k/tj-slovan-preselany/" rel="noopener">Sportnet</a></li></ul>
+  <p class="ftr-src">Výsledky zo Sportnetu, aktualizované 17. 11. 2026. Obec a štadión podľa webu obce Preseľany.</p>
+</div><div class="wrap ftr-bar"><span>© 2026 Telovýchovná jednota Slovan Preseľany</span><a href="../../ochrana-sukromia/">Ochrana súkromia</a><a href="../../admin/">Administrácia (ukážka)</a></div></footer>
 </body>
 </html>

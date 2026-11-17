@@ -14,74 +14,56 @@
 <meta name="theme-color" content="#16294d">
 <link rel="icon" type="image/png" href="../../img/favicon.png">
 <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png">
-<link rel="preload" href="../../fonts/josefin-sans-700.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="../../fonts/mulish-400.woff" as="font" type="font/woff" crossorigin>
-<link rel="preload" href="../../fonts/mulish-700.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../fonts/instrument-serif-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../fonts/geist-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="../../fonts/geist-600.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="../../css/site.css">
 <script>var d=document.documentElement;d.classList.add('js');if(/[?&](tim|kde)=/.test(location.search)){d.classList.add('flt');addEventListener('load',function(){d.classList.remove('flt')})}</script>
 <script type="module" src="../../js/site.mjs"></script>
 </head>
-<body>
+<body class="v2">
 <a class="skip" href="#obsah">Preskočiť na obsah</a>
 <p class="demo">Návrh webu · nie je to oficiálna stránka klubu</p>
-<header class="hdr">
-  <div class="wrap hdr-in">
-    <a class="brand" href="../../"><img src="../../img/erb-128.webp" alt="" width="46" height="46"><span class="brand-t"><span class="brand-n">Slovan Preseľany</span><span class="brand-s">telovýchovná jednota</span></span><span class="sr">, úvod</span></a>
-    <nav class="nav" aria-label="Hlavné menu"><ul><li><a href="../../zapasy/" aria-current="page">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/">Tímy</a></li><li><a href="../../mladez/">Mládež</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../ihrisko/">Štadión</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul></nav>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-haspopup="dialog"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
-  </div>
-</header>
-<dialog class="menu" id="menu" aria-label="Menu">
-  <div class="drawer">
-    <div class="drawer-top"><span class="drawer-k">TJ Slovan Preseľany</span><button class="menu-x" type="button" data-close><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg><span>Zavrieť</span></button></div>
-    <ul class="drawer-nav"><li><a href="../../">Úvod</a></li><li><a href="../../zapasy/" aria-current="page">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/">Tímy</a></li><li><a href="../../mladez/">Mládež</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../ihrisko/">Štadión</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul>
-    <p class="drawer-f">Štadión TJ Slovan Preseľany<br>Školská, 956 12 Preseľany</p>
-  </div>
-</dialog>
+<header class="hdr hdr--bar"><div class="wrap hdr-in"><a class="brand" href="../../"><img src="../../img/erb-128.webp" alt="" width="44" height="44"><span class="brand-t"><span class="brand-n">TJ Slovan Preseľany</span></span><span class="sr">, úvod</span></a><nav class="nav" aria-label="Hlavné menu"><ul><li><a href="../../zapasy/" aria-current="page">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/">Tímy</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul></nav><button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-haspopup="dialog"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button></div></header>
+<dialog class="menu" id="menu" aria-label="Menu"><div class="menu-in">
+  <div class="menu-top"><span class="menu-k">TJ Slovan Preseľany</span><button class="menu-x" type="button" data-close><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg><span>Zavrieť</span></button></div>
+  <ul class="menu-nav"><li><a href="../../">Úvod</a></li><li><a href="../../zapasy/" aria-current="page">Zápasy</a></li><li><a href="../../tabulky/">Tabuľky</a></li><li><a href="../../timy/">Tímy</a></li><li><a href="../../klub/">Klub</a></li><li><a href="../../kontakt/">Kontakt</a></li></ul>
+</div></dialog>
 <main id="obsah">
-<section class="phead"><div class="wrap phead-in">
-  <div><nav class="crumbs" aria-label="Omrvinky"><a href="../../">Úvod</a><a href="../../zapasy/">Zápasy</a><span aria-current="page">17. 4.</span></nav>
-  <h1 class="h1">TJ Slovan Preseľany – OFK Prašice</h1><p class="phead-sub">Mladší žiaci U13, IV. liga mladších žiakov U13, 15. kolo</p></div>
+<section class="phead"><div class="wrap">
+  <nav class="crumbs" aria-label="Omrvinky"><a href="../../">Úvod</a><a href="../../zapasy/">Zápasy</a><span aria-current="page">17. 4.</span></nav>
+  <h1 class="h1">TJ Slovan Preseľany – OFK Prašice</h1><p class="phead-sub">Mladší žiaci U13 · IV. liga mladších žiakov U13, 15. kolo</p>
 </div></section>
 <section class="sec sec--first"><div class="wrap match">
-  <div class="match-card"><article class="mp mp--big">
-  <p class="mp-top"><span class="mp-label">Zápas</span><span>Mladší žiaci U13</span></p>
-  <p class="mp-when"><time datetime="2027-04-17">sobota 17. apríla 2027</time></p>
-  <div class="mp-row"><div class="mp-side is-us"><span class="mp-crest"><img class="logo" src="../../img/erb-128.webp" alt="" width="56" height="56" decoding="async"></span><span class="mp-name">Preseľany U13</span><span class="mp-role">domáci</span></div><p class="mp-score"><span class="mp-time"><span class="sr">Výkop o </span>10:30</span></p><div class="mp-side"><span class="mp-crest"><img class="logo" src="../../img/kluby/ofk-obce-prasice.futbalnet.sk.webp" alt="" width="56" height="56" decoding="async"></span><span class="mp-name">OFK Prašice</span><span class="mp-role">hostia</span></div></div>
-  <p class="mp-note"><span class="cd" data-kickoff="2027-04-17T10:30:00+02:00" hidden></span></p>
-  <p class="mp-meta">IV. liga mladších žiakov U13, 15. kolo</p>
+  <div class="match-card"><article class="mc mc--big">
+  <p class="mc-top"><span class="mc-label">Zápas</span><span>U13 · IV. liga mladších žiakov U13, 15. kolo</span></p>
+  <div class="mc-row"><div class="mc-side is-us"><span class="mc-crest"><img class="logo" src="../../img/erb-128.webp" alt="" width="56" height="56" decoding="async"></span><span class="mc-name">Preseľany U13</span><span class="sr"> (domáci)</span></div><p class="mc-mid"><span class="sr">Výkop o </span>10:30</p><div class="mc-side"><span class="mc-crest"><img class="logo" src="../../img/kluby/ofk-obce-prasice.futbalnet.sk.webp" alt="" width="56" height="56" decoding="async"></span><span class="mc-name">OFK Prašice</span><span class="sr"> (hostia)</span></div></div>
+  <p class="mc-when"><time datetime="2027-04-17">sobota 17. apríla 2027</time> · 10:30</p>
+  <p class="mc-cd"><span class="cd" data-kickoff="2027-04-17T10:30:00+02:00" hidden></span></p>
   
 </article></div>
   <div class="match-info">
     
-    <dl class="facts">
+    <dl class="kv">
       <div><dt>Dátum</dt><dd>sobota 17. apríla 2027, 10:30</dd></div>
       
       
       
     </dl>
-    <p class="btns"><a class="btn btn--navy" href="../../kalendar/zapas-6a66fecfb02131318ec6f40f.ics" download><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Pridať do kalendára</a><a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&query=48.4474793,18.0942967" rel="noopener"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg>Navigovať na ihrisko</a></p>
+    <p class="btns"><a class="btn" href="../../kalendar/zapas-6a66fecfb02131318ec6f40f.ics" download><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Do kalendára</a><a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&query=48.4474793,18.0942967" rel="noopener"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></svg>Navigovať</a></p>
   </div>
   
-  <div class="meet"><h2 class="h3">Ďalšie zápasy s týmto súperom v ročníku</h2><ul class="mn-key" aria-hidden="true"><li><span class="mk mk--w"></span>výhra</li><li><span class="mk mk--d"></span>remíza</li><li><span class="mk mk--l"></span>prehra</li><li><span class="mk mk--n"></span>bez výsledku</li></ul><ol class="mlist mlist--mn"><li class="mrow mrow--mn" data-team="u13-mladsi-ziaci" data-where="vonku"><a class="mn mn--l" href="../../zapasy/2026-09-19-u13-ofk-prasice/">
-  <span class="mn-moon" aria-hidden="true"></span>
-  <span class="mn-s"><span aria-hidden="true">5:7</span><span class="sr">Prehra: náš tím 5, súper 7.</span></span>
-  <span class="mn-b"><span class="mn-o">OFK Prašice</span><span class="mn-k">19. 9. · vonku · prehra</span></span>
+  <div class="meet"><h2 class="h3">Ďalšie zápasy s týmto súperom</h2><ol class="fxl fxl--res"><li class="mrow fx fx--res fx--a fx--l" data-team="u13-mladsi-ziaci" data-where="vonku"><a class="fx-a" href="../../zapasy/2026-09-19-u13-ofk-prasice/">
+  <time class="fx-d" datetime="2026-09-19"><span class="fx-dd">so</span> <span class="fx-dn">19.</span> <span class="fx-dm">9.</span></time>
+  <span class="fx-o"><span class="fx-on">OFK Prašice</span><span class="fx-k">4. kolo · vonku</span></span>
+  <span class="fx-r"><span class="sc sc--l"><span class="sr">Prehra, </span>5:7</span></span>
 </a></li></ol></div>
 </div></section>
 </main>
-<footer class="ftr">
-  <div class="wrap ftr-grid">
-    <div class="ftr-club">
-      <img src="../../img/erb-128.webp" alt="" width="64" height="64" loading="lazy">
-      <p class="ftr-name">TJ Slovan Preseľany</p>
-      <p class="ftr-motto">Futbal pri stanici v Preseľanoch.</p>
-    </div>
-    <div><h2 class="ftr-h">Ihrisko</h2><p>Štadión TJ Slovan Preseľany<br>Školská, 956 12 Preseľany</p><p><a href="https://www.google.com/maps/search/?api=1&query=48.4474793,18.0942967" rel="noopener">Navigovať na ihrisko</a></p><p>Najbližšie doma: <a href="../../zapasy/2027-03-13-a-ofk-ludanice/">13. 3. o 14:30 proti OFK Ludanice</a></p></div>
-    <div><h2 class="ftr-h">Kontakt</h2><p>Telovýchovná jednota Slovan Preseľany<br><a href="mailto:tjslovanpreselany@gmail.com">tjslovanpreselany<wbr>@gmail.com</a></p><p><a href="https://www.facebook.com/profile.php?id=100066784963535" rel="noopener">Facebook klubu</a></p></div>
-    <div><h2 class="ftr-h">Zdroje</h2><p>Výsledky zo Sportnetu (Futbalnet), aktualizované 17. 11. 2026. Obec a štadión podľa webu obce Preseľany.</p><p><a href="https://sportnet.sme.sk/futbalnet/k/tj-slovan-preselany/" rel="noopener">Klub na Sportnete</a></p></div>
-  </div>
-  <div class="ftr-bar"><div class="wrap ftr-bar-in"><span>© 2026 Telovýchovná jednota Slovan Preseľany</span><a href="../../ochrana-sukromia/">Ochrana súkromia</a><a href="../../admin/">Administrácia (ukážka)</a></div></div>
-</footer>
+<footer class="ftr"><div class="wrap ftr-in">
+  <div class="ftr-id"><img src="../../img/erb-128.webp" alt="" width="48" height="48" loading="lazy"><div><p class="ftr-name">TJ Slovan Preseľany</p><p>Štadión TJ Slovan Preseľany, Školská, 956 12 Preseľany</p></div></div>
+  <ul class="ftr-links"><li><a href="https://www.google.com/maps/search/?api=1&query=48.4474793,18.0942967" rel="noopener">Navigovať na ihrisko</a></li><li><a href="mailto:tjslovanpreselany@gmail.com">tjslovanpreselany<wbr>@gmail.com</a></li><li><a href="https://www.facebook.com/profile.php?id=100066784963535" rel="noopener">Facebook</a></li><li><a href="https://sportnet.sme.sk/futbalnet/k/tj-slovan-preselany/" rel="noopener">Sportnet</a></li></ul>
+  <p class="ftr-src">Výsledky zo Sportnetu, aktualizované 17. 11. 2026. Obec a štadión podľa webu obce Preseľany.</p>
+</div><div class="wrap ftr-bar"><span>© 2026 Telovýchovná jednota Slovan Preseľany</span><a href="../../ochrana-sukromia/">Ochrana súkromia</a><a href="../../admin/">Administrácia (ukážka)</a></div></footer>
 </body>
 </html>
