@@ -1,0 +1,82 @@
+{
+  "_zdroj": "Ručne zapísané len zo zverejnených zdrojov (uvedené pri každej časti). Nič nedopĺňať odhadom – chýbajúce údaje dodá klub.",
+  "nazov": "TJ Slovan Preseľany",
+  "kratky": "Preseľany",
+  "pravnyNazov": "Telovýchovná jednota Slovan Preseľany",
+  "_pravnyNazov": "Sportnet",
+  "mesto": "Preseľany",
+  "_zalozenie": "rok založenia klubu sme vo verejných zdrojoch nenašli – doplní klub",
+  "farby": "nebesky modrá a biela",
+  "_farby": "erb klubu (Sportnet): modro-biele zvislé pruhy, tmavomodrý kruh s nápisom",
+  "erbAlt": "Erb TJ Slovan Preseľany: lopta v tmavomodrom kruhu s nápisom TJ Slovan Preseľany na nebesky modrých a bielych pruhoch",
+  "adresa": ["Školská", "956 12 Preseľany"],
+  "_adresa": "Sportnet (ulica Školská, PSČ 956 12)",
+  "kontakt": { "email": "tjslovanpreselany@gmail.com" },
+  "_kontakt": "Sportnet (kontakt klubu)",
+  "sportnetUrl": "https://sportnet.sme.sk/futbalnet/k/tj-slovan-preselany/",
+  "obecWeb": "https://www.obecpreselany.sk/",
+  "stadion": {
+    "_zdroj": "Sportnet (názov, poloha); web obce, stránka Kolkársky klub (štadión pri železničnej stanici, kolkáreň 1966, kolkársky oddiel TJ Slovan 1968 – 2003)",
+    "nazov": "Štadión TJ Slovan Preseľany",
+    "geo": [48.4474793, 18.0942967],
+    "fakty": [
+      { "k": "Pri stanici", "t": "Futbalový štadión stojí pri železničnej stanici. Podľa obce ho postavili ako nový štadión ešte pred kolkárňou z roku 1966." },
+      { "k": "1966", "t": "V areáli štadióna vyrástla betónová krytá kolkárska dvojdráha s ručným stavaním, o dva roky neskôr dostala asfaltový povrch." },
+      { "k": "1968 – 2003", "t": "Pri TJ Slovan Preseľany pôsobil kolkársky oddiel, ktorý hneď v prvej sezóne 1968/69 skončil druhý. Činnosť ukončil 14. decembra 2003, kolky v obci hrá ďalej samostatný kolkársky klub." }
+    ]
+  },
+  "rocniky": {
+    "_zdroj": "Sportnet – konečné tabuľky áčka (dospelí), stiahnuté 17. 11. 2026",
+    "zoznam": [
+      { "rok": "2014/15", "liga": "V. liga Stred", "uroven": 5, "poz": 14, "z": 16, "skore": "40:65", "body": 33 },
+      { "rok": "2015/16", "liga": "V. liga Stred", "uroven": 5, "poz": 11, "z": 16, "skore": "45:58", "body": 35 },
+      { "rok": "2016/17", "liga": "V. liga Stred", "uroven": 5, "poz": 15, "z": 16, "skore": "36:81", "body": 17 },
+      { "rok": "2017/18", "liga": "VI. liga ObFZ Topoľčany", "uroven": 6, "poz": 15, "z": 16, "skore": "36:68", "body": 22 },
+      { "rok": "2018/19", "liga": "VI. liga ObFZ Topoľčany", "uroven": 6, "poz": 16, "z": 16, "skore": "24:65", "body": 19 },
+      { "rok": "2019/20", "liga": "VII. liga ObFZ Topoľčany", "uroven": 7, "poz": 4, "z": 12, "skore": "24:15", "body": 17, "pozn": "nedohraná sezóna (pandémia)" },
+      { "rok": "2020/21", "liga": "VII. liga ObFZ Topoľčany", "uroven": 7, "poz": 2, "z": 10, "skore": "32:6", "body": 18, "pozn": "nedohraná sezóna (pandémia)" },
+      { "rok": "2021/22", "liga": "VII. liga ObFZ Topoľčany", "uroven": 7, "poz": 2, "z": 11, "skore": "89:14", "body": 55, "pozn": "rovnako bodov ako víťazné Čermany, 18 výhier, 1 remíza, 1 prehra" },
+      { "rok": "2022/23", "liga": "VII. liga ObFZ Topoľčany", "uroven": 7, "poz": 1, "z": 14, "skore": "70:19", "body": 68, "titul": true, "pozn": "22 výhier, 2 remízy, 2 prehry" },
+      { "rok": "2023/24", "liga": "VII. liga ObFZ Topoľčany", "uroven": 7, "poz": 7, "z": 14, "skore": "57:59", "body": 36 },
+      { "rok": "2024/25", "liga": "VII. liga ObFZ Topoľčany", "uroven": 7, "poz": 3, "z": 14, "skore": "61:40", "body": 52 },
+      { "rok": "2025/26", "liga": "VI. liga Severovýchod", "uroven": 6, "poz": 13, "z": 16, "skore": "41:66", "body": 35, "pozn": "prvý ročník v krajskej VI. lige" }
+    ]
+  },
+  "uspechy": [
+    { "rok": "2022/23", "text": "víťaz VII. ligy ObFZ Topoľčany (22 výhier, 70:19)" },
+    { "rok": "2021/22", "text": "2. miesto v VII. lige ObFZ Topoľčany s rovnakým počtom bodov ako víťaz" },
+    { "rok": "2025/26", "text": "prvý ročník v krajskej VI. lige Severovýchod" }
+  ],
+  "obec": {
+    "_zdroj": "web obce Preseľany (História, Symboly obce, Kostolík sv. Anny), Wikipédia (Preseľany)",
+    "fakty": [
+      { "k": "1280", "t": "Prvá písomná zmienka o obci, pod názvom Prezlen. Najstarší názov Presteran je z 12. storočia." },
+      { "k": "1646", "t": "Ferdinand III. udelil Preseľanom 19. marca 1646 mestské trhové a jarmočné výsady, právo opevnenia, cechové právo a mýto." },
+      { "k": "1668", "t": "Mestečko dostalo pečať s nápisom „Hacc est veritas oppidi Pereszlény“, teda Toto je pravda mesta Preseľany." },
+      { "k": "Erb", "t": "V červenom štíte zlaté, striebrom lemované šikmé brvno, nad ním strieborný polmesiac a pod ním zlatá osemcípa hviezda." },
+      { "k": "1804", "t": "Rodák Michal Čerňanský dal postaviť kaplnku sv. Anny, v roku 1882 ju na vlastné náklady opravil farár Matej Turčányi." },
+      { "k": "Rodáci", "t": "V obci pôsobil kňaz a pomológ Matej Bazalica (1825 – 1848), narodil sa tu sochár a architekt Štefan Belohradský." }
+    ]
+  },
+  "sutaze": {
+    "_pozn": "čitateľné názvy súťaží namiesto skratiek a názvov so sponzormi zo Sportnetu",
+    "VI. liga Severovýchod Macron | yoursport  ZsFZ": "VI. liga Severovýchod",
+    "IV. liga - Ž - U13 - ObFZ TO": "IV. liga mladších žiakov U13",
+    "III. liga-prípravka-U11- ObFZ TO": "III. liga prípraviek U11",
+    "III. liga-prípravka-U09- ObFZ TO": "III. liga prípraviek U9",
+    "Slovnaft Cup": "Slovnaft Cup"
+  },
+  "nazvy": {
+    "_pozn": "čitateľné názvy súperov namiesto úradných názvov a veľkých písmen zo Sportnetu",
+    "TJ - ŠK Radošina": "TJ-ŠK Radošina",
+    "FUTBALOVÝ KLUB SLOVAN ŠIMONOVANY - PARTIZÁNSKE": "Slovan Šimonovany-Partizánske",
+    "Futbalový klub Koniarovce": "FK Koniarovce",
+    "Mestský futbalový klub Baník Handlová": "MFK Baník Handlová",
+    "OFK obce Prašice": "OFK Prašice",
+    "TJ Družstevník Horná Nitra Nedožery-Brezany": "TJ Družstevník Nedožery-Brezany",
+    "ŠPORTOVÉ CENTRUM CHYNORANY": "ŠC Chynorany",
+    "ŠK VEGUM Dolné Vestenice": "ŠK Vegum Dolné Vestenice",
+    "TJ  Slovan Bojná": "TJ Slovan Bojná",
+    "OFK ČERMANY, o. z.": "OFK Čermany"
+  }
+}
