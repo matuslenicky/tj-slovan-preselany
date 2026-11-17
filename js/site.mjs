@@ -2,7 +2,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 
-// ---- menu na telefóne: modálny <dialog> vysunutý sprava (Esc, „Zavrieť“ a klik mimo ho zatvoria, fokus sa vráti na tlačidlo) ----
+// ---- menu na telefóne: modálny <dialog> cez celú obrazovku (Esc, „Zavrieť“ a klik na odkaz ho zatvoria, fokus sa vráti na tlačidlo) ----
 const menuBtn = $('.menu-btn'), menu = $('#menu');
 if (menuBtn && menu && typeof menu.showModal === 'function') {
   const close = () => { if (menu.open) menu.close(); };
