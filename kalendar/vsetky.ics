@@ -1,0 +1,680 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TJ Slovan Preseľany//Zapasy//SK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TJ Slovan Preseľany – všetky zápasy
+X-WR-TIMEZONE:Europe/Bratislava
+BEGIN:VTIMEZONE
+TZID:Europe/Bratislava
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zapas-6a7765ec62c4077e4f88016a@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260808T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ-ŠK Radošina 1:1
+DESCRIPTION:VI. liga Severovýchod\, 1. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765bf62c4077e4f875e4d@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260816T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Ludanice – TJ Slovan Preseľany 1:3
+DESCRIPTION:VI. liga Severovýchod\, 2. kolo\nZápas vonku
+LOCATION:Ludanice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765f362c4077e4f88150a@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260822T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ Priehrada Nitrianske Rudno
+  1:1
+DESCRIPTION:VI. liga Severovýchod\, 3. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f29a@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260828T173000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Preseľany U11 – TJ Slovan Krušovce 13:2
+DESCRIPTION:III. liga prípraviek U11\, 1. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765bf62c4077e4f875f0f@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260829T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: ŠC Chynorany – TJ Slovan Preseľany 2:1
+DESCRIPTION:VI. liga Severovýchod\, 4. kolo\nZápas vonku
+LOCATION:Štadión OŠK Chynorany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ed31@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260831T170000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – TJ Družstevník Jacovce 1:3
+DESCRIPTION:IV. liga mladších žiakov U13\, 1. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec7297d@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260831T173000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – FC Topoľčany B
+DESCRIPTION:III. liga prípraviek U9\, 1. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f218@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260904T170000
+DURATION:PT2H
+SUMMARY:U11: OFK Tesáre – TJ Slovan Preseľany U11 1:1
+DESCRIPTION:III. liga prípraviek U11\, 2. kolo\nZápas vonku
+LOCATION:OFK Tesáre
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ecdd@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260905T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Krnča – TJ Slovan Preseľany U13
+DESCRIPTION:IV. liga mladších žiakov U13\, 2. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765c062c4077e4f8762b0@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260905T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – Slovan Šimonovany-Partizáns
+ ke 1:0
+DESCRIPTION:VI. liga Severovýchod\, 5. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec729ae@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260907T170000
+DURATION:PT2H
+SUMMARY:U9: OFK Ludanice – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 2. kolo\nZápas vonku
+LOCATION:Ludanice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f2d3@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260911T163000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Preseľany U11 – FK Koniarovce 1:5
+DESCRIPTION:III. liga prípraviek U11\, 3. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ed60@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260912T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – FC Topoľčany B 3:0
+DESCRIPTION:IV. liga mladších žiakov U13\, 3. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765c062c4077e4f87625c@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260912T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – FK TJ Skačany 4:1
+DESCRIPTION:VI. liga Severovýchod\, 6. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72957@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260914T163000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – OFK Prašice
+DESCRIPTION:III. liga prípraviek U9\, 3. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f1d7@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260918T163000
+DURATION:PT2H
+SUMMARY:U11: OFK Tovarníky – TJ Slovan Preseľany U11 15:1
+DESCRIPTION:III. liga prípraviek U11\, 4. kolo\nZápas vonku
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ed69@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260919T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Prašice – TJ Slovan Preseľany U13 7:5
+DESCRIPTION:IV. liga mladších žiakov U13\, 4. kolo\nZápas vonku
+LOCATION:OFK Prašice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765f462c4077e4f8818d7@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260920T153000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Tatran Uhrovec – TJ Slovan Preseľany 4:2
+DESCRIPTION:VI. liga Severovýchod\, 7. kolo\nZápas vonku
+LOCATION:TJ Tatran Uhrovec
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72b36@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260921T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Práznovce – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 4. kolo\nZápas vonku
+LOCATION:Práznovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f310@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260925T160000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Preseľany U11 – OFK Prašice 4:5
+DESCRIPTION:III. liga prípraviek U11\, 5. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecdb02131318ec6ee9e@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260926T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – OFK Tovarníky 1:2
+DESCRIPTION:IV. liga mladších žiakov U13\, 5. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765c662c4077e4f8775da@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260926T153000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – ŠK Vegum Dolné Vestenice 1:
+ 2
+DESCRIPTION:VI. liga Severovýchod\, 8. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72b4e@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20260928T160000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – OFK Solčany
+DESCRIPTION:III. liga prípraviek U9\, 5. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f4bf@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261002T160000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Krušovce – TJ Slovan Preseľany U11 1:8
+DESCRIPTION:III. liga prípraviek U11\, 6. kolo\nZápas vonku
+LOCATION:Krušovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f0d5@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261003T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Krušovce – TJ Slovan Preseľany U13 4:5
+DESCRIPTION:IV. liga mladších žiakov U13\, 6. kolo\nZápas vonku
+LOCATION:Krušovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765ee62c4077e4f88078b@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261004T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Bojná – TJ Slovan Preseľany 1:2
+DESCRIPTION:VI. liga Severovýchod\, 9. kolo\nZápas vonku
+LOCATION:TJ Slovan Bojná
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72b73@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261005T160000
+DURATION:PT2H
+SUMMARY:U9: OFK Tovarníky – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 6. kolo\nZápas vonku
+LOCATION:OFK Tovarníky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765c162c4077e4f8766a1@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261010T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ Družstevník Jacovce 4:3
+DESCRIPTION:VI. liga Severovýchod\, 10. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f34a@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261014T170000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Preseľany U11 – OFK Tesáre 4:1
+DESCRIPTION:III. liga prípraviek U11\, 7. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f4cc@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261016T150000
+DURATION:PT2H
+SUMMARY:U11: FK Koniarovce – TJ Slovan Preseľany U11 2:9
+DESCRIPTION:III. liga prípraviek U11\, 8. kolo\nZápas vonku
+LOCATION:TJ Koniarovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f07d@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261017T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – TJ Slovan Bojná 2:1
+DESCRIPTION:IV. liga mladších žiakov U13\, 8. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d862c4077e4f87c442@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261017T140000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Krušovce – TJ Slovan Preseľany 5:0
+DESCRIPTION:VI. liga Severovýchod\, 11. kolo\nZápas vonku
+LOCATION:Krušovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feedb02131318ec72dc0@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261019T150000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – TJ Slovan Veľké Bedzany
+DESCRIPTION:III. liga prípraviek U9\, 8. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f4b9@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261023T150000
+DURATION:PT2H
+SUMMARY:U11: TJ Slovan Preseľany U11 – OFK Tovarníky 7:8
+DESCRIPTION:III. liga prípraviek U11\, 9. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765c562c4077e4f877372@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261024T140000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – OFK Kovarce 3:1
+DESCRIPTION:VI. liga Severovýchod\, 12. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec72ec7@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261026T150000
+DURATION:PT2H
+SUMMARY:U9: OFK Veľké Ripňany – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 9. kolo\nZápas vonku
+LOCATION:OFK Veľké Ripňany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f1a9@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261027T153000
+DURATION:PT2H
+SUMMARY:U13: OFK Ludanice – TJ Slovan Preseľany U13 6:3
+DESCRIPTION:IV. liga mladších žiakov U13\, 9. kolo\nZápas vonku
+LOCATION:Ludanice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66ff45b02131318ec7f40a@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261030T150000
+DURATION:PT2H
+SUMMARY:U11: OFK Prašice – TJ Slovan Preseľany U11 10:4
+DESCRIPTION:III. liga prípraviek U11\, 10. kolo\nZápas vonku
+LOCATION:OFK Prašice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d462c4077e4f87b594@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261031T140000
+DURATION:PT2H
+SUMMARY:A-mužstvo: FK Iskra Nováky – TJ Slovan Preseľany 0:8
+DESCRIPTION:VI. liga Severovýchod\, 13. kolo\nZápas vonku
+LOCATION:Futbalový štadión Nováky
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f201@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261107T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Veľké Ripňany – TJ Slovan Preseľany U13 1:4
+DESCRIPTION:IV. liga mladších žiakov U13\, 11. kolo\nZápas vonku
+LOCATION:OFK Veľké Ripňany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765c862c4077e4f877f49@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261107T133000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ Baník Sebedražie 1:1
+DESCRIPTION:VI. liga Severovýchod\, 14. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f156@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261114T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – OFK Nitrianska Blatnica 0:2
+DESCRIPTION:IV. liga mladších žiakov U13\, 10. kolo\nDomáci zápas
+LOCATION:Štadión TJ Slovan Preseľany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d462c4077e4f87b3c7@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20261114T133000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ AC Žabokreky nad Nitrou – TJ Slovan Preseľany 1
+ :0
+DESCRIPTION:VI. liga Severovýchod\, 15. kolo\nZápas vonku
+LOCATION:Futbalové ihrisko Žabokreky nad Nitrou
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765cb62c4077e4f879285@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270306T143000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ-ŠK Radošina – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 16. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765cb62c4077e4f8792ef@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270313T143000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – OFK Ludanice
+DESCRIPTION:VI. liga Severovýchod\, 17. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d062c4077e4f87a462@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270320T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Priehrada Nitrianske Rudno – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 18. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d562c4077e4f87b98e@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270327T150000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – ŠC Chynorany
+DESCRIPTION:VI. liga Severovýchod\, 19. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fed8b02131318ec703a4@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270328T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Družstevník Jacovce – TJ Slovan Preseľany U13
+DESCRIPTION:IV. liga mladších žiakov U13\, 12. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feceb02131318ec6f2b0@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270403T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – OFK Krnča
+DESCRIPTION:IV. liga mladších žiakov U13\, 13. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d962c4077e4f87c6c1@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270404T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: Slovan Šimonovany-Partizánske – TJ Slovan Preseľa
+ ny
+DESCRIPTION:VI. liga Severovýchod\, 20. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f498@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270411T110000
+DURATION:PT2H
+SUMMARY:U13: FC Topoľčany B – TJ Slovan Preseľany U13
+DESCRIPTION:IV. liga mladších žiakov U13\, 14. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d662c4077e4f87bddc@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270411T160000
+DURATION:PT2H
+SUMMARY:A-mužstvo: FK TJ Skačany – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 21. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec730f0@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270412T163000
+DURATION:PT2H
+SUMMARY:U9: FC Topoľčany B – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 10. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f40f@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270417T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – OFK Prašice
+DESCRIPTION:IV. liga mladších žiakov U13\, 15. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d462c4077e4f87b399@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270417T163000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ Tatran Uhrovec
+DESCRIPTION:VI. liga Severovýchod\, 22. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec72f2b@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270419T163000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – OFK Ludanice
+DESCRIPTION:III. liga prípraviek U9\, 11. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f454@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270425T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Tovarníky – TJ Slovan Preseľany U13
+DESCRIPTION:IV. liga mladších žiakov U13\, 16. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765ce62c4077e4f879cd2@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270425T163000
+DURATION:PT2H
+SUMMARY:A-mužstvo: ŠK Vegum Dolné Vestenice – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 23. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec730ba@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270426T163000
+DURATION:PT2H
+SUMMARY:U9: OFK Prašice – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 12. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fed9b02131318ec704d1@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270501T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – TJ Slovan Krušovce
+DESCRIPTION:IV. liga mladších žiakov U13\, 17. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d762c4077e4f87bfb2@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270502T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ Slovan Bojná
+DESCRIPTION:VI. liga Severovýchod\, 24. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec7300b@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270503T170000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – OFK Práznovce
+DESCRIPTION:III. liga prípraviek U9\, 13. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765de62c4077e4f87d9bd@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270509T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Družstevník Jacovce – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 25. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec730cf@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270510T170000
+DURATION:PT2H
+SUMMARY:U9: OFK Solčany – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 14. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f78e@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270515T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Bojná – TJ Slovan Preseľany U13
+DESCRIPTION:IV. liga mladších žiakov U13\, 19. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d762c4077e4f87bf3d@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270516T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ Slovan Krušovce
+DESCRIPTION:VI. liga Severovýchod\, 26. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec732ab@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270517T170000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – OFK Tovarníky
+DESCRIPTION:III. liga prípraviek U9\, 15. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f7b6@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270522T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – OFK Ludanice
+DESCRIPTION:IV. liga mladších žiakov U13\, 20. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765e162c4077e4f87e57c@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270524T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: OFK Kovarce – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 27. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fecfb02131318ec6f700@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270529T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Nitrianska Blatnica – TJ Slovan Preseľany U13
+DESCRIPTION:IV. liga mladších žiakov U13\, 21. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765db62c4077e4f87d000@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270530T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – FK Iskra Nováky
+DESCRIPTION:VI. liga Severovýchod\, 28. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feeeb02131318ec732fe@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270531T173000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Veľké Bedzany – TJ Slovan Preseľany U9
+DESCRIPTION:III. liga prípraviek U9\, 17. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66fed0b02131318ec6f82e@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270605T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Preseľany U13 – OFK Veľké Ripňany
+DESCRIPTION:IV. liga mladších žiakov U13\, 22. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765e162c4077e4f87e50b@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270607T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Baník Sebedražie – TJ Slovan Preseľany
+DESCRIPTION:VI. liga Severovýchod\, 29. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a66feefb02131318ec733dc@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270607T173000
+DURATION:PT2H
+SUMMARY:U9: TJ Slovan Preseľany U9 – OFK Veľké Ripňany
+DESCRIPTION:III. liga prípraviek U9\, 18. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a7765d162c4077e4f87a83b@tj-slovan-preselany.sportnet
+DTSTAMP:20261117T201436Z
+DTSTART;TZID=Europe/Bratislava:20270614T170000
+DURATION:PT2H
+SUMMARY:A-mužstvo: TJ Slovan Preseľany – TJ AC Žabokreky nad Nitrou
+DESCRIPTION:VI. liga Severovýchod\, 30. kolo\nDomáci zápas
+END:VEVENT
+END:VCALENDAR
