@@ -159,7 +159,7 @@ const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${ST.geo.join('
 const mapyUrl = `https://mapy.com/fnc/v1/showmap?mapset=basic&amp;center=${ST.geo[1]},${ST.geo[0]}&amp;zoom=16&amp;marker=true`;
 const A = teams[0];
 const YEAR = Number(TODAY.slice(0, 4));
-const DESC = `${club.nazov} – futbal v Preseľanoch, štadión pri železničnej stanici. Zápasy, výsledky, tabuľky a súpisky áčka (${A.leagueName}) a mládeže od prípravky U9 po žiakov U13, ročníky áčka a titul vo VII. lige ObFZ Topoľčany 2022/23.`;
+const DESC = `${club.nazov} – futbal v Preseľanoch, štadión pri železničnej stanici. Zápasy, výsledky, tabuľky a súpisky áčka (${A.leagueName}) a mládeže od prípravky U9 po žiakov U13, ročníky áčka a titul v VII. lige ObFZ Topoľčany 2022/23.`;
 const nextHome = upcoming.find((m) => m.home && m.team === A.slug);
 const winterNow = (() => { const n = upcoming.find((m) => m.team === A.slug); return !!n && (dObj(n.date) - dObj(TODAY)) / 864e5 > 14; })();
 
@@ -199,7 +199,7 @@ function suhvezdie() {
 <figcaption class="const-key"><span><i class="ck ck--s"></i>ročník (väčšia hviezda = lepšie miesto)</span><span><i class="ck ck--t"></i>titul</span><span class="const-hint" aria-hidden="true">← súhvezdie sa dá posúvať do strany →</span></figcaption></figure>`;
 }
 
-// menu: na počítači v riadku, na telefóne modálny <dialog> vysunutý sprava
+// menu: na počítači v riadku, na telefóne modálny <dialog> cez celú obrazovku
 function layout({ route, title, desc, body, active, bodyClass = '' }) {
   const depth = route.split('/').filter(Boolean).length;
   const R = depth ? '../'.repeat(depth) : './';
@@ -211,7 +211,7 @@ function layout({ route, title, desc, body, active, bodyClass = '' }) {
     email: club.kontakt.email,
     address: { '@type': 'PostalAddress', streetAddress: club.adresa[0], postalCode: club.adresa[1].slice(0, 6), addressLocality: club.mesto, addressCountry: 'SK' },
     location: { '@type': 'StadiumOrArena', name: ST.nazov, maximumAttendeeCapacity: ST.kapacita, geo: { '@type': 'GeoCoordinates', latitude: ST.geo[0], longitude: ST.geo[1] } },
-    sameAs: [club.sportnetUrl],
+    sameAs: [club.sportnetUrl, club.kontakt.facebook],
   }).replace(/</g, '\\u003c')}</script>`;
   const li = ([u, t]) => `<li><a href="${R}${u}"${cur(u)}>${t}</a></li>`;
   return `<!doctype html>
@@ -264,7 +264,7 @@ ${body}
       <p class="ftr-motto">Futbal pri stanici v Preseľanoch.</p>
     </div>
     <div><h2 class="ftr-h">Ihrisko</h2><p>${esc(ST.nazov)}<br>${club.adresa.map(esc).join(', ')}</p><p><a href="${mapsUrl}" rel="noopener">Navigovať na ihrisko</a></p>${nextHome ? `<p>Najbližšie doma: <a href="${R}${nextHome.url}">${dShort(nextHome.date)} o ${esc(nextHome.time || '')} proti ${esc(nextHome.opponent)}</a></p>` : ''}</div>
-    <div><h2 class="ftr-h">Kontakt</h2><p>${esc(club.pravnyNazov)}<br><a href="mailto:${club.kontakt.email}">${esc(club.kontakt.email).replace('@', '<wbr>@')}</a></p></div>
+    <div><h2 class="ftr-h">Kontakt</h2><p>${esc(club.pravnyNazov)}<br><a href="mailto:${club.kontakt.email}">${esc(club.kontakt.email).replace('@', '<wbr>@')}</a></p><p><a href="${club.kontakt.facebook}" rel="noopener">Facebook klubu</a></p></div>
     <div><h2 class="ftr-h">Zdroje</h2><p>Výsledky zo Sportnetu (Futbalnet), aktualizované ${dFull(sn.updated.slice(0, 10))}. Obec a štadión podľa webu obce Preseľany.</p><p><a href="${club.sportnetUrl}" rel="noopener">Klub na Sportnete</a></p></div>
   </div>
   <div class="ftr-bar"><div class="wrap ftr-bar-in"><span>© ${new Date().getFullYear()} ${esc(club.pravnyNazov)}</span><a href="${R}ochrana-sukromia/">Ochrana súkromia</a>${config.adminDemo ? `<a href="${R}admin/">Administrácia (ukážka)</a>` : ''}</div></div>
@@ -547,7 +547,7 @@ for (const m of matches) {
       ${m.audience ? `<div><dt>Diváci</dt><dd>${num(m.audience)}</dd></div>` : ''}
       ${m.referee ? `<div><dt>Rozhodca</dt><dd>${esc(m.referee)}</dd></div>` : ''}
     </dl>
-    <p class="btns">${m.score && snUrl ? `<a class="btn btn--line" href="${snUrl}" rel="noopener">${I.ext}Zápis na Sportnete</a>` : ''}${!m.past ? `<a class="btn btn--green" href="${R}kalendar/zapas-${m.id}.ics" download>${I.cal}Pridať do kalendára</a>${m.home ? `<a class="btn btn--line" href="${mapsUrl}" rel="noopener">${I.route}Navigovať na ihrisko</a>` : ''}` : ''}</p>
+    <p class="btns">${m.score && snUrl ? `<a class="btn btn--line" href="${snUrl}" rel="noopener">${I.ext}Zápis na Sportnete</a>` : ''}${!m.past ? `<a class="btn btn--navy" href="${R}kalendar/zapas-${m.id}.ics" download>${I.cal}Pridať do kalendára</a>${m.home ? `<a class="btn btn--line" href="${mapsUrl}" rel="noopener">${I.route}Navigovať na ihrisko</a>` : ''}` : ''}</p>
   </div>
   ${m.lineups ? `<div class="lineups"><h2 class="h3 lineups-h">Zostavy</h2>${lineupHtml(m.home ? m.lineups.our : m.lineups.opp, m.home ? club.nazov : m.opponent)}${lineupHtml(m.home ? m.lineups.opp : m.lineups.our, m.home ? m.opponent : club.nazov)}</div>` : ''}
   ${prevMeet.length ? `<div class="meet"><h2 class="h3">Ďalšie zápasy s týmto súperom v ročníku</h2>${moonKey}${matchList(prevMeet, R, { showTeam: false })}</div>` : ''}
@@ -691,7 +691,7 @@ add('ihrisko/', {
   <div>
     <h2 class="h3">Štadión a kolkáreň</h2>
     <ul class="mini mini--light">${ST.fakty.map((u) => `<li><b>${esc(u.k)}</b> ${esc(u.t)}</li>`).join('')}</ul>
-    <p class="btns"><a class="btn btn--navy" href="${mapsUrl}" rel="noopener">${I.route}Navigovať (Google Mapy)</a><a class="btn btn--line" href="${mapyUrl}" rel="noopener">${I.pin}Mapy.com</a></p>
+    <p class="btns"><a class="btn btn--navy" href="${mapsUrl}" rel="noopener">${I.route}Google Mapy</a><a class="btn btn--line" href="${mapyUrl}" rel="noopener">${I.pin}Mapy.com</a></p>
     <p class="src">Zdroj: web obce Preseľany (Kolkársky klub), poloha zo Sportnetu.</p>
   </div>
   <div>${home.length ? `<h2 class="h3">Najbližšie zápasy doma</h2>${matchList(home, R)}` : ''}</div>
@@ -707,7 +707,7 @@ add('kontakt/', {
   <div class="ccard">
     <p class="eyebrow">Kontakt klubu</p>
     <p class="ccard-n">${esc(club.nazov)}</p>
-    <p class="btns"><a class="btn btn--green" href="mailto:${club.kontakt.email}">${I.mail}<span>${esc(club.kontakt.email).replace('@', '<wbr>@')}</span></a></p>
+    <p class="btns"><a class="btn btn--navy btn--mail" href="mailto:${club.kontakt.email}">${I.mail}<span>${esc(club.kontakt.email).replace('@', '<wbr>@')}</span></a></p>
     <p class="note">E-mail klubu podľa Sportnetu. Telefónne čísla klub verejne neuvádza.</p>
   </div>
   <dl class="facts">
@@ -720,9 +720,10 @@ add('kontakt/', {
     <h2 class="h3">Klub na webe</h2>
     <ul class="docs">
       <li><a href="${club.sportnetUrl}" rel="noopener">${I.ext}<span>Profil klubu na Sportnete</span><small>zápisy o stretnutí, súpisky, prestupy</small></a></li>
+      <li><a href="${club.kontakt.facebook}" rel="noopener">${I.ext}<span>Facebook klubu</span><small>správy a fotky, odkaz z webu obce</small></a></li>
       <li><a href="${club.obecWeb}" rel="noopener">${I.ext}<span>Web obce Preseľany</span><small>história, symboly obce, kolkársky klub</small></a></li>
     </ul>
-    <p class="src">Vlastný web ani sociálne siete klubu sme nenašli.</p>
+    <p class="src">Vlastný web klubu sme nenašli. Facebook klubu uvádza web obce v menu pod položkou Futbalový klub.</p>
   </div>
 </div></section>`,
 });
@@ -740,7 +741,7 @@ add('ochrana-sukromia/', {
 add('404/', {
   title: 'Stránka sa nenašla',
   body: (R) => `${pageHead({ title: 'Stránka sa nenašla', sub: 'Táto hviezda tu nesvieti. Adresa je chybná alebo sa stránka presunula.', R })}
-<section class="sec sec--first"><div class="wrap"><p class="btns"><a class="btn btn--green" href="${R}">Na úvod</a><a class="btn btn--line" href="${R}zapasy/">Zápasy a výsledky</a></p></div></section>`,
+<section class="sec sec--first"><div class="wrap"><p class="btns"><a class="btn btn--navy" href="${R}">Na úvod</a><a class="btn btn--line" href="${R}zapasy/">Zápasy a výsledky</a></p></div></section>`,
 });
 
 // ---- kalendár (.ics, RFC 5545) ----------------------------------------------------------------

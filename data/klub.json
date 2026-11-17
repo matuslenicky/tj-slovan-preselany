@@ -11,8 +11,8 @@
   "erbAlt": "Erb TJ Slovan Preseľany: lopta v tmavomodrom kruhu s nápisom TJ Slovan Preseľany na nebesky modrých a bielych pruhoch",
   "adresa": ["Školská", "956 12 Preseľany"],
   "_adresa": "Sportnet (ulica Školská, PSČ 956 12)",
-  "kontakt": { "email": "tjslovanpreselany@gmail.com" },
-  "_kontakt": "Sportnet (kontakt klubu)",
+  "kontakt": { "email": "tjslovanpreselany@gmail.com", "facebook": "https://www.facebook.com/profile.php?id=100066784963535" },
+  "_kontakt": "Sportnet (e-mail); web obce Preseľany, menu Futbalový klub (Facebook)",
   "sportnetUrl": "https://sportnet.sme.sk/futbalnet/k/tj-slovan-preselany/",
   "obecWeb": "https://www.obecpreselany.sk/",
   "stadion": {
@@ -52,10 +52,10 @@
     "fakty": [
       { "k": "1280", "t": "Prvá písomná zmienka o obci, pod názvom Prezlen. Najstarší názov Presteran je z 12. storočia." },
       { "k": "1646", "t": "Ferdinand III. udelil Preseľanom 19. marca 1646 mestské trhové a jarmočné výsady, právo opevnenia, cechové právo a mýto." },
-      { "k": "1668", "t": "Mestečko dostalo pečať s nápisom „Hacc est veritas oppidi Pereszlény“, teda Toto je pravda mesta Preseľany." },
-      { "k": "Erb", "t": "V červenom štíte zlaté, striebrom lemované šikmé brvno, nad ním strieborný polmesiac a pod ním zlatá osemcípa hviezda." },
+      { "k": "1668", "t": "Mestečko dostalo vlastnú pečať s latinským nápisom, ktorý v preklade znie Toto je pravda mesta Preseľany." },
+      { "k": "Erb", "t": "V červenom štíte zlaté, striebrom lemované kosmé brvno, nad ním strieborný polmesiac a pod ním zlatá osemcípa hviezda." },
       { "k": "1804", "t": "Rodák Michal Čerňanský dal postaviť kaplnku sv. Anny, v roku 1882 ju na vlastné náklady opravil farár Matej Turčányi." },
-      { "k": "Rodáci", "t": "V obci pôsobil kňaz a pomológ Matej Bazalica (1825 – 1848), narodil sa tu sochár a architekt Štefan Belohradský." }
+      { "k": "Osobnosti", "t": "V rokoch 1825 – 1848 pôsobil v obci kňaz a pomológ Matej Bazalica, narodil sa tu sochár a architekt Štefan Belohradský." }
     ]
   },
   "sutaze": {

@@ -19,7 +19,7 @@ Ukážka: https://matuslenicky.github.io/tj-slovan-preselany/ · administrácia 
 ## Obsah a zdroje
 
 - Zápasy, výsledky, strelci, karty, počty divákov, zostavy dospelých, tabuľky a súpisky 4 tímov (áčko, U13, U11, U9) zo Sportnetu (Futbalnet), verejné API súťaží (`scripts/sportnet.mjs` → `data/sportnet.json`). Vek hráčov sa neukladá, zostavy len pri dospelých.
-- Ročníky áčka 2014/15 – 2025/26 z konečných tabuliek na Sportnete, titul vo VII. lige ObFZ Topoľčany 2022/23 (`data/klub.json`).
+- Ročníky áčka 2014/15 – 2025/26 z konečných tabuliek na Sportnete, titul v VII. lige ObFZ Topoľčany 2022/23 (`data/klub.json`).
 - Štadión pri železničnej stanici a kolkáreň z roku 1966 podľa webu obce (stránka Kolkársky klub). Obec podľa webu obce (História, Symboly obce, Kostolík sv. Anny) a Wikipédie.
 - Rok založenia a staršiu históriu klubu sme vo verejných zdrojoch nenašli (17. 11. 2026), na webe je to tak uvedené. E-mail zo Sportnetu.
 - Erb klubu a erby súperov zo Sportnetu (`scripts/logos.py`). Patria príslušným klubom.
