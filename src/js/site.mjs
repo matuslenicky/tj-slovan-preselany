@@ -22,7 +22,7 @@ const plural = (n, a, b, c) => `${n} ${n === 1 ? a : n >= 2 && n <= 4 ? b : c}`;
 function tick() {
   for (const el of $$('.cd[data-kickoff]')) {
     const ms = Date.parse(el.dataset.kickoff) - Date.now();
-    if (Number.isNaN(ms)) continue;
+    if (Number.isNaN(ms) || ms > 14 * 864e5) { el.hidden = true; continue; }
     el.hidden = false;
     if (ms <= 0) { el.textContent = ms > -105 * 60e3 ? 'Práve sa hrá' : 'Zápas sa skončil, výsledok čoskoro'; continue; }
     const d = Math.floor(ms / 864e5), h = Math.floor((ms % 864e5) / 36e5), m = Math.floor((ms % 36e5) / 6e4);
