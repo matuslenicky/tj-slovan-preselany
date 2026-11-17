@@ -6,15 +6,14 @@ Ukážka: https://matuslenicky.github.io/tj-slovan-preselany/ · administrácia 
 
 ## Vzhľad
 
-**„Polmesiac a hviezda“.** Erb obce má v červenom štíte strieborný polmesiac a zlatú osemcípu hviezdu, klub hrá v nebesky modrej a bielej.
+**„Švajčiarska mriežka“ (dizajn v2, 17. 11. 2026).** Biela, tmavomodrá, nebeská modrá z dresu len ako akcent. Písmo Instrument Serif (titulky) a Geist (text, čísla).
 
-- nebesky modro-biele **pruhy dresu** v hlavičke, na kartách a v päte,
-- úvod ako **nočná obloha** s polmesiacom, osemcípou hviezdou a erbom klubu (SVG),
-- program ako **osemcípe hviezdy s dňom v mesiaci**: doma zlatá, vonku nebeská,
-- výsledky ako **fázy mesiaca**: výhra spln, remíza polmesiac, prehra nov, skóre v poradí naše:súper,
-- **súhvezdie ročníkov**: každý ročník jedna hviezda, výška podľa úrovne súťaže (V. – VII. liga), veľkosť podľa miesta, titul 2022/23 ako zlatá osemcípa hviezda,
-- menu na telefóne ako **nočná obloha cez celú obrazovku**,
-- písmo **Josefin Sans** (nadpisy a čísla) a **Mulish** (text).
+- prísna mriežka, veľa bieleho priestoru a tenké linky; úvod: veľký titulok s krátkou vetou a štyri údaje áčka (miesto, body, skóre, forma),
+- pod tým tri stĺpce (najbližší zápas, výsledky, program) a celá tabuľka s popisom vľavo,
+- stránka Klub v rovnakej mriežke: ročníky áčka, úspechy, štadión pri stanici a obec,
+- menu na telefóne je biela plocha cez celú obrazovku.
+
+Web sa skladá zo spoločného jadra v2 (`kluby-siet/engine`: `python assemble.py <web>`), vlastný je `src/site.js` (úvod, Klub, nastavenia) a `src/css/skin.css`.
 
 ## Obsah a zdroje
 
