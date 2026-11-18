@@ -6,7 +6,7 @@ Ukážka: https://matuslenicky.github.io/tj-slovan-preselany/ · administrácia 
 
 ## Vzhľad
 
-**„Švajčiarska mriežka“ (dizajn v2, 17. 11. 2026).** Biela, tmavomodrá, nebeská modrá z dresu len ako akcent. Písmo Instrument Serif (titulky) a Geist (text, čísla).
+**„Švajčiarska mriežka“ (dizajn v2, 17. 11. 2026).** Biela, takmer čierna tlač, nebeská modrá z dresu ako jediná farba. Písmo Instrument Serif (titulky) a Geist (text, čísla).
 
 - prísna mriežka, veľa bieleho priestoru a tenké linky; úvod: veľký titulok s krátkou vetou a štyri údaje áčka (miesto, body, skóre, forma),
 - pod tým tri stĺpce (najbližší zápas, výsledky, program) a celá tabuľka s popisom vľavo,

@@ -212,10 +212,19 @@ a:hover .teams-s { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 /* ===== koniec základu, nasleduje skin.css webu ===== */
 
-/* TJ Slovan Preseľany – „Švajčiarska mriežka“. Biela, tmavomodrá, nebeská modrá z dresu len ako akcent. */
+/* tímy na úzkom displeji: poradie pod súťažou, stredný stĺpec sa nestlačí na nulu */
+@media (max-width: 459.98px) {
+  .teams { grid-template-columns: max-content minmax(0, 1fr); }
+  .teams a { grid-template-areas: 'n s' 'n l' 'n p'; row-gap: 2px; }
+  .teams-p { white-space: normal; }
+}
+/* meno klubu v hlavičke pri 320 px nesmie zájsť pod tlačidlo Menu */
+@media (max-width: 379.98px) { .hdr .brand-n { white-space: normal; line-height: 1.1; } .hdr .brand-s { display: none; } }
+
+/* TJ Slovan Preseľany – „Švajčiarska mriežka“. Biela, takmer čierna tlač, nebeská modrá z dresu ako jediná farba. */
 :root {
   --bg: #fff; --paper: #fff; --ink: #121a2c; --muted: #5a6274; --line: #e3e6ec;
-  --navy: #16294d; --sky: #8fcdea; --sky-l: #eef7fc; --focus: #16294d; --link: #16294d;
+  --navy: #121820; --sky: #8fcdea; --sky-d: #1a73a8; --sky-l: #e9f5fc; --focus: #1a73a8; --link: #1a73a8;
   --disp: 'Instrument Serif', Georgia, 'Times New Roman', serif;
   --text: 'Geist', system-ui, sans-serif;
   --text-size: 1rem; --lh: 1.6;
@@ -317,3 +326,17 @@ a:hover .teams-s { text-decoration: underline; }
 .ftr-name { font: 400 1.35rem/1.1 var(--disp); color: var(--navy); }
 .ftr-bar { border-top: 1px solid var(--line); color: var(--muted); }
 .demo { background: var(--navy); color: #fff; }
+/* forma v údajoch áčka: Instrument Serif nemá tučný rez (inak ho prehliadač umelo stučnie) */
+.sw-stats .form li { font-family: var(--text); }
+/* úzky telefón: meno klubu v hlavičke sa zalomí, nezájde pod tlačidlo Menu */
+@media (max-width: 379.98px) { .brand-n { white-space: normal; line-height: 1.05; } }
+
+/* nebeská modrá ako jediná farba (odlíšenie od tmavomodrých webov siete) */
+.h1 em { color: var(--sky-d); }
+.more, .nav a[aria-current="page"], .sw-meta .cd, .mc-label { color: var(--sky-d); }
+.sc--w, .form--w { background: var(--sky-d); }
+.sc--d, .form--d { background: var(--sky-l); color: var(--sky-d); }
+.tbl tr.our th, .tbl tr.our td { color: var(--sky-d); }
+.sw-stats { border-top-color: var(--sky-d); border-top-width: 3px; }
+.label { border-bottom-color: var(--sky-d); }
+.demo { background: var(--sky-d); }

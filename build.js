@@ -172,8 +172,8 @@ const homePick = (list, n) => {
   const rest = cand.filter((m) => !a.includes(m)).slice(0, n - a.length);
   return cand.filter((m) => a.includes(m) || rest.includes(m)); // áčko má prednosť, poradie zoznamu ostáva
 };
-const homeUp = (n = 5) => homePick(upcoming, n);
-const homeRes = (n = 5) => homePick(results.filter((x) => x.score), n);
+const homeUp = (n = 5, skip = []) => homePick(upcoming.filter((m) => ![].concat(skip).includes(m)), n); // skip: zápas, ktorý už úvod zvýrazňuje
+const homeRes = (n = 5, skip = []) => homePick(results.filter((x) => x.score && ![].concat(skip).includes(x)), n);
 const MON3 = ['jan', 'feb', 'mar', 'apr', 'máj', 'jún', 'júl', 'aug', 'sep', 'okt', 'nov', 'dec'];
 
 // ---- kostra stránky ------------------------------------------------------------------------------
@@ -189,7 +189,7 @@ function layout({ route, title, desc, body, active, bodyClass = '' }) {
   const ld = route ? '' : `<script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org', '@type': 'SportsClub', name: club.nazov, sport: 'Futbal', ...(club.zalozenie ? { foundingDate: String(club.zalozenie) } : {}),
     email: club.kontakt.email,
-    address: { '@type': 'PostalAddress', streetAddress: club.adresa[0], postalCode: club.adresa[1].slice(0, 6), addressLocality: club.mesto, addressCountry: 'SK' },
+    address: { '@type': 'PostalAddress', ...(club.adresa.length > 1 ? { streetAddress: club.adresa[0] } : {}), postalCode: (club.adresa.at(-1).match(/^\d{3} ?\d{2}/) || [''])[0], addressLocality: club.mesto, addressCountry: 'SK' },
     location: { '@type': 'StadiumOrArena', name: ST.nazov, geo: { '@type': 'GeoCoordinates', latitude: ST.geo[0], longitude: ST.geo[1] } },
     sameAs: [club.sportnetUrl, club.kontakt.facebook].filter(Boolean),
   }).replace(/</g, '\\u003c')}</script>`;
@@ -521,11 +521,11 @@ add('', {
     <h2 class="label" id="nx-h">Najbližší zápas</h2>
     ${n ? `<p class="sw-next">${n.home ? 'Preseľany – ' : ''}${esc(n.opponent)}${n.home ? '' : ' – Preseľany'}</p>
     <p class="sw-meta"><time datetime="${n.date}">${dLong(n.date)}</time>, ${esc(n.time || '')} · ${n.home ? 'doma' : 'vonku'}</p>
-    <p class="sw-meta">${wl || `<span class="cd" data-kickoff="${isoLocal(n.date, n.time)}" hidden></span>`}</p>
+    <p class="sw-meta">${wl ? 'Prvý zápas po zimnej prestávke.' : `<span class="cd" data-kickoff="${isoLocal(n.date, n.time)}" hidden></span>`}</p>
     <p class="btns"><a class="btn" href="${R}kalendar/zapas-${n.id}.ics" download>${I.cal}Do kalendára</a></p>` : '<p>Zatiaľ bez programu.</p>'}
   </section>
   <section aria-labelledby="res-h"><h2 class="label" id="res-h">Výsledky</h2>${fxList(homeRes(5), R)}${more(`${R}zapasy/#z-vys`, 'Všetky')}</section>
-  <section aria-labelledby="prog-h"><h2 class="label" id="prog-h">Program</h2>${homeUp(5).length ? fxList(homeUp(5), R) : '<p>Ďalšie zápasy zatiaľ nie sú vyžrebované.</p>'}${more(`${R}zapasy/`, 'Všetky')}</section>
+  <section aria-labelledby="prog-h"><h2 class="label" id="prog-h">Program</h2>${homeUp(5, nextA).length ? fxList(homeUp(5, nextA), R) : '<p>Ďalšie zápasy zatiaľ nie sú vyžrebované.</p>'}${more(`${R}zapasy/`, 'Všetky')}</section>
 </div></section>
 ${A.table ? `<section class="sec sec--line" aria-labelledby="t-h"><div class="wrap sw-split">
   <div><h2 class="label" id="t-h">Tabuľka</h2><p class="sw-meta">${esc(A.leagueName)}</p>${more(`${R}tabulky/`, 'Všetky tabuľky')}</div>
@@ -539,7 +539,7 @@ add('klub/', {
   body: (R) => `${pageHead({ title: 'Klub', sub: `${esc(club.pravnyNazov)}. Klubové farby: ${esc(club.farby)}.`, R, crumbs: [[null, 'Klub']] })}
 <section class="sec sec--first"><div class="wrap sw-split">
   <div><h2 class="label">Ročníky áčka</h2><p class="sw-meta">Od V. ligy cez okres späť do kraja.</p></div>
-  <div>${seasonsTable(club.rocniky.zoznam)}<p class="note">Rok založenia a staršiu históriu klubu sme vo verejných zdrojoch nenašli.</p></div>
+  <div>${seasonsTable(club.rocniky.zoznam)}</div>
 </div></section>
 <section class="sec sec--line"><div class="wrap sw-split">
   <div><h2 class="label">Úspechy</h2></div>
